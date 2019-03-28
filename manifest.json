@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Random Password",
+	"description": "Adds a button to generate a random, secure password",
+	"version": "1.0",
+	"homepage_url": "https://github.com/shakyjake/Random-Password-FX-Extension"
+	"content_scripts": [
+		{
+			"matches": ["https://*/*"],
+			"js": ["randompassword.js"]
+		}
+	],
+	"icons": {
+		"48": "icons/48.png",
+		"96": "icons/96.png"
+	}
+}
